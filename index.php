@@ -1,9 +1,13 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: admin
- * Date: 2017/11/6
- * Time: 10:41
- */
-$arr = array('a' => 1, 'b' => 2, 'c' => 3, 'd' => 4, 'e' => 5);
-echo json_encode($arr);
+
+$data = '';
+
+
+$response = array(
+    'code'  => 999,
+    'message' => 'argument error for request',
+    'data'  => true,
+);
+
+echo json_encode($response);
+?>
